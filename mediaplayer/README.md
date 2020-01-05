@@ -36,30 +36,6 @@ const muteButton: HTMLElement = document.querySelector("#mute");
 muteButton.onclick = () => player.toggleMute();
 ```
 
-## Ejemplo y ejercicios
-
-Puedes encontrar un ejemplo de cómo implementar mediaplayer-plugins en la carpeta 'website' y ejercicios de conceptos aprendidos para el desarrollo del paquete en la carpeta 'website/ejercicios'.
-
-En la carpeta de ejercicios encontraras los siguientes conceptos:
-
-- Scope
-- Clousures
-- this
-- Métodos call, apply y bind
-- Prototype
-- Herencia prototipal
-- Promises
-- Proxy
-- Generators
-- Fetch - Cómo cancelar peticiones
-- Service Workers (archivo 'sw.js' en la carpeta 'website')
-
-Patrones de Diseño:
-
-- Singleton
-- Observer
-- Decorator
-
 ## Licencia
 
 [MIT](https://opensource.org/licenses/MIT)
